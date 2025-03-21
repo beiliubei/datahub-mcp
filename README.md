@@ -18,7 +18,7 @@ mcp dev main.py --with-editable .
 ## Setup Instructions
 
 
-1**Clone This Repository**
+1. **Clone This Repository**
 
    Clone this repository to your local machine.
 
