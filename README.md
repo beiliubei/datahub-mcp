@@ -48,7 +48,7 @@ mcp dev main.py --with-editable .
 
 After setup, you can interact with your Datahub instance via Claude using natural language requests. Here are some examples:
 
-### Dashboard Management
+### Datasets
 
 - **View datasets**: "Show me all my Datahub datasets"
 - **Get dataset details**: "Show me the details of dataset with urn urn:li:dataset:(urn:li:dataPlatform:trino,dataplatform.dm_app.qrcode,PROD)"
