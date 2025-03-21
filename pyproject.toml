@@ -1,0 +1,34 @@
+[project]
+name = "datahub-mcp"
+version = "0.1.0"
+description = "Model Control Protocol (MCP) server for Datahub integration with AI assistants"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+]
+classifiers = [
+]
+dependencies = [
+    "fastapi>=0.115.0",
+    "httpx>=0.28.0",
+    "mcp[cli]>=1.4.0",
+    "uvicorn>=0.34.0",
+    "python-dotenv>=1.0.0",
+    "loguru>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/beiliubei/datahub-mcp"
+Issues = "https://github.com/beiliubei/datahub-mcp/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
